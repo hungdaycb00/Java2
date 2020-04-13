@@ -2,6 +2,7 @@ package Lession1_arraylist;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListCollectionsSortExample {
@@ -16,12 +17,11 @@ public class ArrayListCollectionsSortExample {
 
         System.out.println("Before: " + numbers);
 
-        Collections.sort(numbers);
-        System.out.println("After: " +
-                numbers);
-
-        numbers.remove((Integer) 2);
-        System.out.println(numbers);
+        Iterator<Integer> numberIteger = numbers.iterator();
+        while (numberIteger.hasNext()){
+            Integer numbe = numberIteger.next();
+            System.out.println(numbe);
+        }
     }
 
 }

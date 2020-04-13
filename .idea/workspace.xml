@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd80960-eb3d-4947-80a2-b32a2f4598b7" name="Default Changelist" comment="" />
+    <list default="true" id="9dd80960-eb3d-4947-80a2-b32a2f4598b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession1_arraylist/IteratorEX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Calcilator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Handle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/MoveList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Temperature1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Temprature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/initArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/Lession1_arraylist/ArrayListCollectionsSortExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/Lession1_arraylist/ArrayListCollectionsSortExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/Lession1_arraylist/ArrayPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/Lession1_arraylist/ArrayPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lession1_arraylist/ArrayListCollectionsSortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lession1_arraylist/ArrayListCollectionsSortExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,23 +30,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aHaQG4onaojrcJsbVNMOVEVeXA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ArrayPerson">
-    <configuration name="ArrayListCollectionsSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession1_arraylist.ArrayListCollectionsSortExample" />
+  <component name="RunManager" selected="Application.Calcilator1">
+    <configuration name="Calcilator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Calcilator1" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lession1_arraylist.*" />
+          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -38,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListSortEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession1_arraylist.ArrayListSortEX" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Calculator" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lession1_arraylist.*" />
+          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession1_arraylist.ArrayListSortExample" />
+    <configuration name="Handle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Handle" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lession1_arraylist.*" />
+          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListUserDefinedObjectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession1_arraylist.ArrayListUserDefinedObjectExample" />
+    <configuration name="MoveList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.MoveList" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lession1_arraylist.*" />
+          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession1_arraylist.ArrayPerson" />
+    <configuration name="Temperature1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Temperature1" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lession1_arraylist.*" />
+          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,19 +112,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayListUserDefinedObjectExample" />
-      <item itemvalue="Application.ArrayListCollectionsSortExample" />
-      <item itemvalue="Application.ArrayListSortEX" />
-      <item itemvalue="Application.ArrayPerson" />
-      <item itemvalue="Application.ArrayListSortExample" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.MoveList" />
+      <item itemvalue="Application.Handle" />
+      <item itemvalue="Application.Temperature1" />
+      <item itemvalue="Application.Calcilator1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayPerson" />
-        <item itemvalue="Application.ArrayListSortExample" />
-        <item itemvalue="Application.ArrayListSortEX" />
-        <item itemvalue="Application.ArrayListCollectionsSortExample" />
-        <item itemvalue="Application.ArrayListUserDefinedObjectExample" />
+        <item itemvalue="Application.Calcilator1" />
+        <item itemvalue="Application.Temperature1" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Handle" />
+        <item itemvalue="Application.MoveList" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +140,11 @@
       <updated>1586394954831</updated>
       <workItem from="1586394960881" duration="10584000" />
       <workItem from="1586422045172" duration="1351000" />
-      <workItem from="1586524344507" duration="1722000" />
+      <workItem from="1586524344507" duration="3356000" />
+      <workItem from="1586568059614" duration="13863000" />
+      <workItem from="1586663872957" duration="729000" />
+      <workItem from="1586697405343" duration="151000" />
+      <workItem from="1586745089192" duration="6602000" />
     </task>
     <servers />
   </component>
@@ -127,33 +152,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1586408010056">
+    <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1586576115982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586408010056" />
-    <state width="1069" height="268" key="GridCell.Tab.0.bottom" timestamp="1586526933681">
+    <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586576115982" />
+    <state width="1069" height="241" key="GridCell.Tab.0.bottom" timestamp="1586766748649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586526933681" />
-    <state width="1069" height="268" key="GridCell.Tab.0.center" timestamp="1586526933681">
+    <state width="1069" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586766748649" />
+    <state width="1069" height="241" key="GridCell.Tab.0.center" timestamp="1586766748649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586526933681" />
-    <state width="1069" height="268" key="GridCell.Tab.0.left" timestamp="1586526933681">
+    <state width="1069" height="241" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586766748649" />
+    <state width="1069" height="241" key="GridCell.Tab.0.left" timestamp="1586766748649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586526933681" />
-    <state width="1069" height="268" key="GridCell.Tab.0.right" timestamp="1586526933681">
+    <state width="1069" height="241" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586766748649" />
+    <state width="1069" height="241" key="GridCell.Tab.0.right" timestamp="1586766748649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586526933681" />
-    <state x="998" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1586524342880">
+    <state width="1069" height="241" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586766748649" />
+    <state x="998" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1586745096664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586524342880" />
-    <state x="964" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1586401246293">
+    <state x="998" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586745096664" />
+    <state x="964" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1586570176635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="964" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586401246293" />
+    <state x="964" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586570176635" />
   </component>
 </project>
