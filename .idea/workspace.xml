@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd80960-eb3d-4947-80a2-b32a2f4598b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lession1_arraylist/IteratorEX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Calcilator1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Handle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/MoveList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Temperature1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/Temprature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lession2_ArraylistEX/initArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lession3_CaseStudy/caseStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/Lession1_arraylist/ArrayListCollectionsSortExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/Lession1_arraylist/ArrayListCollectionsSortExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/Lession1_arraylist/ArrayPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/Lession1_arraylist/ArrayPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lession1_arraylist/ArrayListCollectionsSortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lession1_arraylist/ArrayListCollectionsSortExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lession1_arraylist/ArrayPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lession1_arraylist/ArrayPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +33,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Calcilator1">
+  <component name="RunManager" selected="Application.caseStudy">
+    <configuration name="ArrayPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lession1_arraylist.ArrayPerson" />
+      <module name="Java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lession1_arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calcilator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Calcilator1" />
       <module name="Java2" />
@@ -72,32 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Handle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Handle" />
-      <module name="Java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.MoveList" />
-      <module name="Java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Temperature1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Temperature1" />
       <module name="Java2" />
@@ -111,20 +86,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="caseStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lession3_CaseStudy.caseStudy" />
+      <module name="Java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lession3_CaseStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.MoveList" />
-      <item itemvalue="Application.Handle" />
       <item itemvalue="Application.Temperature1" />
       <item itemvalue="Application.Calcilator1" />
+      <item itemvalue="Application.caseStudy" />
+      <item itemvalue="Application.ArrayPerson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.caseStudy" />
+        <item itemvalue="Application.ArrayPerson" />
         <item itemvalue="Application.Calcilator1" />
         <item itemvalue="Application.Temperature1" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Handle" />
-        <item itemvalue="Application.MoveList" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +132,8 @@
       <workItem from="1586568059614" duration="13863000" />
       <workItem from="1586663872957" duration="729000" />
       <workItem from="1586697405343" duration="151000" />
-      <workItem from="1586745089192" duration="6602000" />
+      <workItem from="1586745089192" duration="7206000" />
+      <workItem from="1586827241292" duration="22990000" />
     </task>
     <servers />
   </component>
@@ -152,33 +141,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1586576115982">
+    <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1586841157660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586576115982" />
-    <state width="1069" height="241" key="GridCell.Tab.0.bottom" timestamp="1586766748649">
+    <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586841157660" />
+    <state width="1069" height="330" key="GridCell.Tab.0.bottom" timestamp="1586857734166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586766748649" />
-    <state width="1069" height="241" key="GridCell.Tab.0.center" timestamp="1586766748649">
+    <state width="1069" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
+    <state width="1069" height="330" key="GridCell.Tab.0.center" timestamp="1586857734166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="241" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586766748649" />
-    <state width="1069" height="241" key="GridCell.Tab.0.left" timestamp="1586766748649">
+    <state width="1069" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
+    <state width="1069" height="330" key="GridCell.Tab.0.left" timestamp="1586857734166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="241" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586766748649" />
-    <state width="1069" height="241" key="GridCell.Tab.0.right" timestamp="1586766748649">
+    <state width="1069" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
+    <state width="1069" height="330" key="GridCell.Tab.0.right" timestamp="1586857734166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="241" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586766748649" />
+    <state width="1069" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
+    <state width="1069" height="330" key="GridCell.Tab.1.bottom" timestamp="1586857734167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1069" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734167" />
+    <state width="1069" height="330" key="GridCell.Tab.1.center" timestamp="1586857734166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1069" height="330" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
+    <state width="1069" height="330" key="GridCell.Tab.1.left" timestamp="1586857734166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1069" height="330" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
+    <state width="1069" height="330" key="GridCell.Tab.1.right" timestamp="1586857734167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1069" height="330" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734167" />
     <state x="998" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1586745096664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="998" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586745096664" />
-    <state x="964" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1586570176635">
+    <state x="885" y="303" key="extract.method.dialog" timestamp="1586855005812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="964" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586570176635" />
+    <state x="885" y="303" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586855005812" />
+    <state x="964" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1586830553456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="964" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586830553456" />
   </component>
 </project>
