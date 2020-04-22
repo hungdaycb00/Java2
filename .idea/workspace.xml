@@ -2,12 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd80960-eb3d-4947-80a2-b32a2f4598b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookStore/bookView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookStore/books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookStore/orderView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="69674aa7-f46c-47b2-a3ad-1f911b107d73" />
+    </checked>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,11 +53,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/mysql-connector-java-8.0.19.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.caseStudy">
+  <component name="RunManager" selected="Application.orderView">
     <configuration name="ArrayPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lession1_arraylist.ArrayPerson" />
       <module name="Java2" />
@@ -45,38 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calcilator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Calcilator1" />
+    <configuration name="JdbcSelectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JdbcSelectTest" />
       <module name="Java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Calculator" />
+    <configuration name="bookView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BookStore.bookView" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Temperature1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lession2_ArraylistEX.Temperature1" />
-      <module name="Java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lession2_ArraylistEX.*" />
+          <option name="PATTERN" value="BookStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,22 +109,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="orderView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BookStore.orderView" />
+      <module name="Java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BookStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.Temperature1" />
-      <item itemvalue="Application.Calcilator1" />
       <item itemvalue="Application.caseStudy" />
       <item itemvalue="Application.ArrayPerson" />
+      <item itemvalue="Application.bookView" />
+      <item itemvalue="Application.JdbcSelectTest" />
+      <item itemvalue="Application.orderView" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.orderView" />
+        <item itemvalue="Application.bookView" />
+        <item itemvalue="Application.JdbcSelectTest" />
         <item itemvalue="Application.caseStudy" />
         <item itemvalue="Application.ArrayPerson" />
-        <item itemvalue="Application.Calcilator1" />
-        <item itemvalue="Application.Temperature1" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5b1a1a83" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -133,6 +180,7 @@
       <workItem from="1586745089192" duration="7206000" />
       <workItem from="1586827241292" duration="22990000" />
       <workItem from="1587000707683" duration="3370000" />
+      <workItem from="1587431912840" duration="18950000" />
     </task>
     <servers />
   </component>
@@ -140,26 +188,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Inspections" timestamp="1587523182821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1587523182821" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587520134130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587520134130" />
     <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1586841157660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1071" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586841157660" />
-    <state width="1069" height="330" key="GridCell.Tab.0.bottom" timestamp="1586857734166">
+    <state x="1230" y="217" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1587476772807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
-    <state width="1069" height="330" key="GridCell.Tab.0.center" timestamp="1586857734166">
+    <state x="1230" y="217" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587476772807" />
+    <state x="758" y="222" key="ExecutionTargetDialog" timestamp="1587520660961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
-    <state width="1069" height="330" key="GridCell.Tab.0.left" timestamp="1586857734166">
+    <state x="758" y="222" key="ExecutionTargetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587520660961" />
+    <state x="1180" y="261" key="FileChooserDialogImpl" timestamp="1587476812084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
-    <state width="1069" height="330" key="GridCell.Tab.0.right" timestamp="1586857734166">
+    <state x="1180" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587476812084" />
+    <state width="926" height="241" key="GridCell.Tab.0.bottom" timestamp="1587525152779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734166" />
+    <state width="926" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587525152779" />
+    <state width="926" height="241" key="GridCell.Tab.0.center" timestamp="1587525152778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="926" height="241" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587525152778" />
+    <state width="926" height="241" key="GridCell.Tab.0.left" timestamp="1587525152778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="926" height="241" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587525152778" />
+    <state width="926" height="241" key="GridCell.Tab.0.right" timestamp="1587525152778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="926" height="241" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587525152778" />
     <state width="1069" height="330" key="GridCell.Tab.1.bottom" timestamp="1586857734167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -176,6 +244,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1069" height="330" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586857734167" />
+    <state x="880" y="81" key="SettingsEditor" timestamp="1587476814675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="81" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587476814675" />
+    <state x="714" y="274" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1587520483565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="274" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1040@0.0.1920.1040" timestamp="1587520483565" />
     <state x="998" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1587000996411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,5 +268,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="964" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586830553456" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BookStore/orderView.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
