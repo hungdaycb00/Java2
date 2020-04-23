@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd80960-eb3d-4947-80a2-b32a2f4598b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test23_4/JdbcInsertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test23_4/book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/JdbcUpdateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/java2_7Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/java2_7Ex2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookStore/InsertBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStore/InsertBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GiftShopNew" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,7 +64,7 @@
       <recent name="test23_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JdbcInsertTest (1)">
+  <component name="RunManager" selected="Application.java2_7Ex2">
     <configuration name="InsertBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BookStore.InsertBook" />
       <module name="Java2" />
@@ -91,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcInsertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SQL.JdbcInsertTest" />
+    <configuration name="JdbcUpdateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SQL.JdbcUpdateTest" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bookView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BookStore.bookView" />
+    <configuration name="java2_7Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SQL.java2_7Ex1" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BookStore.*" />
+          <option name="PATTERN" value="SQL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="orderView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BookStore.orderView" />
+    <configuration name="java2_7Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SQL.java2_7Ex2" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BookStore.*" />
+          <option name="PATTERN" value="SQL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bookView" />
-      <item itemvalue="Application.orderView" />
-      <item itemvalue="Application.JdbcInsertTest" />
       <item itemvalue="Application.InsertBook" />
       <item itemvalue="Application.JdbcInsertTest (1)" />
+      <item itemvalue="Application.JdbcUpdateTest" />
+      <item itemvalue="Application.java2_7Ex1" />
+      <item itemvalue="Application.java2_7Ex2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.java2_7Ex2" />
+        <item itemvalue="Application.java2_7Ex1" />
+        <item itemvalue="Application.JdbcUpdateTest" />
         <item itemvalue="Application.JdbcInsertTest (1)" />
         <item itemvalue="Application.InsertBook" />
-        <item itemvalue="Application.JdbcInsertTest" />
-        <item itemvalue="Application.orderView" />
-        <item itemvalue="Application.bookView" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@6f9b913f" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@59460803" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -195,6 +195,7 @@
       <workItem from="1587599738185" duration="1128000" />
       <workItem from="1587600887704" duration="1355000" />
       <workItem from="1587606420910" duration="3256000" />
+      <workItem from="1587613763354" duration="4823000" />
     </task>
     <task id="LOCAL-00001" summary="intsert and delete sql">
       <created>1587600638747</created>
@@ -246,22 +247,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1180" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587608064065" />
-    <state width="1056" height="266" key="GridCell.Tab.0.bottom" timestamp="1587612222679">
+    <state width="1056" height="280" key="GridCell.Tab.0.bottom" timestamp="1587617735537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1056" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587612222679" />
-    <state width="1056" height="266" key="GridCell.Tab.0.center" timestamp="1587612222679">
+    <state width="1056" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587617735537" />
+    <state width="1056" height="280" key="GridCell.Tab.0.center" timestamp="1587617735536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1056" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587612222679" />
-    <state width="1056" height="266" key="GridCell.Tab.0.left" timestamp="1587612222679">
+    <state width="1056" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587617735536" />
+    <state width="1056" height="280" key="GridCell.Tab.0.left" timestamp="1587617735536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1056" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587612222679" />
-    <state width="1056" height="266" key="GridCell.Tab.0.right" timestamp="1587612222679">
+    <state width="1056" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587617735536" />
+    <state width="1056" height="280" key="GridCell.Tab.0.right" timestamp="1587617735536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1056" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587612222679" />
+    <state width="1056" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587617735536" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1587600868426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,6 +325,14 @@
           <url>file://$PROJECT_DIR$/src/BookStore/InsertBook.java</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SQL/java2_7Ex2.java</url>
+          <line>101</line>
+          <properties class="SQL.java2_7Ex2" method="UpdateOrder">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
