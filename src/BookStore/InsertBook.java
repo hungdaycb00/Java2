@@ -83,6 +83,7 @@ public class InsertBook {
             int id = scanner.nextInt();
             System.out.println("Enter title: ");
             String title = scanner.nextLine();
+            title = scanner.nextLine();
             System.out.println("Enter author: ");
             String author = scanner.nextLine();
             System.out.println("Enter category: ");
@@ -93,7 +94,9 @@ public class InsertBook {
             int qty = scanner.nextInt();
             System.out.println("Enter current date: ");
             String date = scanner.nextLine();
-            String sqlInsert = "insert into books values" + "(" + id + "," + title  + "," + author  + "," + category + "," + price + "," + qty + "," + date +")";
+            date = scanner.nextLine();
+
+            String sqlInsert = "insert into books values" + "(" + id + ",'" + title  + "','" + author  + "','" + category + "'," + price + "," + qty + ",'" + date +"')";
             System.out.println("The SQL statement is: " + sqlInsert);
             int countInsert = stmt.executeUpdate(sqlInsert);
             System.out.println(countInsert + " records insert.");
