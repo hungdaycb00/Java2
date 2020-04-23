@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd80960-eb3d-4947-80a2-b32a2f4598b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SQL/JdbcUpdateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SQL/java2_7Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SQL/java2_7Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/giftcontroller/GiftController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/giftmodel/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/giftview/GiftShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/giftshop/giftcontroller/GiftController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/giftshop/giftmodel/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/giftshop/giftview/GiftShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/SQL" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,6 +65,10 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test23_4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Aptech\Java2\src\SQL" />
+      <recent name="D:\Aptech\Java2\src\giftshop" />
     </key>
   </component>
   <component name="RunManager" selected="Application.java2_7Ex2">
@@ -195,7 +202,7 @@
       <workItem from="1587599738185" duration="1128000" />
       <workItem from="1587600887704" duration="1355000" />
       <workItem from="1587606420910" duration="3256000" />
-      <workItem from="1587613763354" duration="4823000" />
+      <workItem from="1587613763354" duration="6228000" />
     </task>
     <task id="LOCAL-00001" summary="intsert and delete sql">
       <created>1587600638747</created>
@@ -247,22 +254,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1180" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587608064065" />
-    <state width="1056" height="280" key="GridCell.Tab.0.bottom" timestamp="1587617735537">
+    <state width="1056" height="280" key="GridCell.Tab.0.bottom" timestamp="1587626547420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1056" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587617735537" />
-    <state width="1056" height="280" key="GridCell.Tab.0.center" timestamp="1587617735536">
+    <state width="1056" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587626547420" />
+    <state width="1056" height="280" key="GridCell.Tab.0.center" timestamp="1587626547420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1056" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587617735536" />
-    <state width="1056" height="280" key="GridCell.Tab.0.left" timestamp="1587617735536">
+    <state width="1056" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587626547420" />
+    <state width="1056" height="280" key="GridCell.Tab.0.left" timestamp="1587626547420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1056" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587617735536" />
-    <state width="1056" height="280" key="GridCell.Tab.0.right" timestamp="1587617735536">
+    <state width="1056" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587626547420" />
+    <state width="1056" height="280" key="GridCell.Tab.0.right" timestamp="1587626547420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1056" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587617735536" />
+    <state width="1056" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587626547420" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1587600868426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
