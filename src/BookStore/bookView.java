@@ -69,11 +69,12 @@ public class bookView {
                         "root", "");
                 Statement stmt = conn.createStatement();
                 ){
-            String strSelect = "select books.id, books.title, books.category, sum(orderQty) from orderdetail\n" +
+            String strSelect = "select books.id, books.title, books.category, sum(orderQty) as sumQty from orderdetail\n" +
                     "Join books on   orderdetail.Bookid = books.id\n" +
                     "JOIN orderproduct o on orderdetail.orderID = o.orderID\n" +
-                    "and o.statusID = 1\n" +
-                    "group by id limit 100";
+
+                    "group by id" +
+                    " order by sumQty DESC limit 100";
             System.out.println("The stetament SQL is : "+ strSelect + "\n");
             ResultSet rset = stmt.executeQuery(strSelect);
 
@@ -83,7 +84,7 @@ public class bookView {
                 int id = rset.getInt("books.id");
                 String title = rset.getString("books.title");
                 String category = rset.getString("books.category");
-                int qty = rset.getInt("orderQty");
+                int qty = rset.getInt("sumQty");
                 System.out.println("STT " + (rowCount+ 1) + "-" + id + ", " + title + ", " + category + ", "  + qty + "\n");
                 rowCount++;
             }
