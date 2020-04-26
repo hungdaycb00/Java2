@@ -38,23 +38,26 @@ public class bookView {
                         "root", "");
                 Statement stmt = conn.createStatement();
         ){
-            String strSelect = "select * from books order by importDate DESC Limit 10";
-            System.out.println("The SQL statement is: " + strSelect + "\n");
-            ResultSet rset = stmt.executeQuery(strSelect);
-
-            System.out.println("The records selected are: ");
+            ResultSet rset = stmt.executeQuery("select * from books order by importDate DESC Limit 10");
+            ResultSetMetaData rsetMD = rset.getMetaData();
+            int numColumns = rsetMD.getColumnCount();
+            //print column name
+            for(int i = 1; i <= numColumns; ++i){
+                System.out.printf("%-30s", rsetMD.getColumnName(i));
+            }
+            System.out.println();
+            // print columns class name
+            for(int i = 1; i <= numColumns; ++i){
+                System.out.printf("%-30s","(" + rsetMD.getColumnClassName(i) + ")");
+            }
+            System.out.println();
             int rowCount = 0;
             while (rset.next()){
-                int id = rset.getInt("id");
-                String title = rset.getString("title");
-                String author = rset.getString("author");
-                String category = rset.getString("category");
-                Float price = rset.getFloat("price");
-                int qty = rset.getInt("qty");
-                String date = rset.getString("importDate");
-                System.out.println("STT " + (rowCount+ 1) + "-" + id + ", " + title + ", " + author + ", " + category + ", " + price
-                        + ", " + qty + ", " + date + "\n");
+                for(int i = 1; i <= numColumns; ++i){
+                    System.out.printf("%-30s", rset.getString(i));
+                }
                 rowCount++;
+                System.out.println();
             }
             System.out.println("Total number of records = " + rowCount);
 
@@ -78,17 +81,20 @@ public class bookView {
             System.out.println("The stetament SQL is : "+ strSelect + "\n");
             ResultSet rset = stmt.executeQuery(strSelect);
 
-            System.out.println("The records select are: ");
-            int rowCount = 0;
-            while (rset.next()){
-                int id = rset.getInt("books.id");
-                String title = rset.getString("books.title");
-                String category = rset.getString("books.category");
-                int qty = rset.getInt("sumQty");
-                System.out.println("STT " + (rowCount+ 1) + "-" + id + ", " + title + ", " + category + ", "  + qty + "\n");
-                rowCount++;
+            ResultSetMetaData rsetMD = rset.getMetaData();
+            int numColumns = rsetMD.getColumnCount();
+
+            for(int i = 1; i <= numColumns; ++i){
+                System.out.printf("%-30s", rsetMD.getColumnName(i));
             }
-            System.out.println("Total number of records = " + rowCount);
+            System.out.println();
+            while (rset.next()){
+                for (int i = 1; i <= numColumns; ++i){
+                    System.out.printf("%-30s", rset.getString(i));
+                }
+                System.out.println();
+            }
+
         } catch (SQLException ex){
             ex.printStackTrace();
         }
@@ -169,24 +175,26 @@ public class bookView {
         ){
             System.out.println("Enter book ID: ");
             int bookid = scanner.nextInt();
-            String strSelect = "select * from books where id = " + bookid;
-            System.out.println("The SQL statement is: " + strSelect + "\n");
-            ResultSet rset = stmt.executeQuery(strSelect);
-            System.out.println("The records selected are: ");
-            int rowCount = 0;
-            while (rset.next()){
-                int id = rset.getInt("id");
-                String title = rset.getString("title");
-                String author = rset.getString("author");
-                String category = rset.getString("category");
-                Float price = rset.getFloat("price");
-                int qty = rset.getInt("qty");
-                String date = rset.getString("importDate");
-                System.out.println("STT " + (rowCount+ 1) + "-" + id + ", " + title + ", " + author + ", " + category + ", " + price
-                        + ", " + qty + ", " + date + "\n");
-                rowCount++;
+            ResultSet rset = stmt.executeQuery("select * from books where id =" + bookid);
+            ResultSetMetaData rsetMD = rset.getMetaData();
+            int numColumns = rsetMD.getColumnCount();
+            System.out.println("---"+numColumns + "---");
+
+            for(int i = 1; i <= numColumns; ++i){
+                System.out.printf("%-30s", "(" + rsetMD.getColumnName(i) + ")");
             }
-            System.out.println("Total number of records = " + rowCount);
+            System.out.println();
+
+            for(int i = 1; i<= numColumns; i++){
+                System.out.printf("%-30s",  rsetMD.getColumnClassName(i));
+            }
+            System.out.println();
+            while (rset.next()){
+                for(int i = 1; i<= numColumns; i++){
+                    System.out.printf("%-30s", rset.getString(i));
+                }
+            }
+
 
         } catch (SQLException ex){
             ex.printStackTrace();
