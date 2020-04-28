@@ -1,9 +1,9 @@
-package BookStore;
+package BookStore.StoreView;
 
 import java.sql.*;
 import java.util.Scanner;
 
-public class bookView {
+public class BookView2 {
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         menu();
@@ -18,9 +18,9 @@ public class bookView {
                 break;
             case 3:
                 FindBookByAuthor();
+
                 break;
             case 4:
-
                 FindBookByCategory();
                 break;
             case 5:
@@ -72,7 +72,7 @@ public class bookView {
                         "jdbc:mysql://localhost:3306/ebookshop?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC",
                         "root", "");
                 Statement stmt = conn.createStatement();
-                ){
+        ){
             String strSelect = "select books.id, books.title, books.category, sum(orderQty) as sumQty from orderdetail\n" +
                     "Join books on   orderdetail.Bookid = books.id\n" +
                     "JOIN orderproduct o on orderdetail.orderID = o.orderID\n" +
@@ -108,25 +108,23 @@ public class bookView {
                         "root", "");
                 Statement stmt = conn.createStatement();
         ){
-            System.out.println("Enter category: ");
+            System.out.println("Enter category name: ");
             String type = scanner.nextLine();
             type = scanner.nextLine();
-            String strSelect = "select * from books where category = '" + type + "'";
-            System.out.println("The SQL statement is: " + strSelect + "\n");
-            ResultSet rset = stmt.executeQuery(strSelect);
             System.out.println("The records selected are: ");
+            ResultSet rset = stmt.executeQuery("select * from books where category = '" + type + "'");
+            ResultSetMetaData rsetMD = rset.getMetaData();
+            int numColumn = rsetMD.getColumnCount();
+            for(int i = 1; i <= numColumn; i++){
+                System.out.printf("%-30s", rsetMD.getColumnName(i));
+            }
+            System.out.println();
             int rowCount = 0;
             while (rset.next()){
-                int id = rset.getInt("id");
-                String title = rset.getString("title");
-                String author = rset.getString("author");
-                String category = rset.getString("category");
-                Float price = rset.getFloat("price");
-                int qty = rset.getInt("qty");
-                String date = rset.getString("importDate");
-                System.out.println("STT " + (rowCount+ 1) + "-" + id + ", " + title + ", " + author + ", " + category + ", " + price
-                        + ", " + qty + ", " + date + "\n");
-                rowCount++;
+                for(int i = 1; i <= numColumn; i++){
+                    System.out.printf("%-30s",  rset.getString(i));
+                }
+                System.out.println();
             }
             System.out.println("Total number of records = " + rowCount);
 
@@ -144,39 +142,39 @@ public class bookView {
             System.out.println("Enter author name: ");
             String name = scanner.nextLine();
             name = scanner.nextLine();
-            String strSelect = "select * from books where author = '" + name + "'";
-            System.out.println("The SQL statement is: " + strSelect + "\n");
-            ResultSet rset = stmt.executeQuery(strSelect);
-            System.out.println("The records selected are: ");
+            ResultSet rset = stmt.executeQuery("Select * from books where author = '" + name + "'");
+            ResultSetMetaData rsetMD = rset.getMetaData();
+            int numCount = rsetMD.getColumnCount();
+
+            for(int i = 1; i <= numCount; i++){
+                System.out.printf("%-30s", rsetMD.getColumnName(i));
+            }
+            System.out.println();
             int rowCount = 0;
             while (rset.next()){
-                int id = rset.getInt("id");
-                String title = rset.getString("title");
-                String author = rset.getString("author");
-                String category = rset.getString("category");
-                Float price = rset.getFloat("price");
-                int qty = rset.getInt("qty");
-                String date = rset.getString("importDate");
-                System.out.println("STT " + (rowCount+ 1) + "-" + id + ", " + title + ", " + author + ", " + category + ", " + price
-                        + ", " + qty + ", " + date + "\n");
+                for(int i = 1; i <= numCount; i++){
+                    System.out.printf("%-30s", rset.getString(i));
+                }
+                System.out.println();
                 rowCount++;
             }
             System.out.println("Total number of records = " + rowCount);
-
         } catch (SQLException ex){
             ex.printStackTrace();
         }
     }
     public static void ViewDetailBook(){
+        System.out.println("Enter book ID: ");
+        int booked = scanner.nextInt();
         try(
                 Connection conn = DriverManager.getConnection(
                         "jdbc:mysql://localhost:3306/ebookshop?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC",
                         "root", "");
                 Statement stmt = conn.createStatement();
+
+                PreparedStatement pstmt = conn.prepareStatement("select * from books where id = " + booked);
         ){
-            System.out.println("Enter book ID: ");
-            int bookid = scanner.nextInt();
-            ResultSet rset = stmt.executeQuery("select * from books where id =" + bookid);
+            ResultSet rset = pstmt.executeQuery();
             ResultSetMetaData rsetMD = rset.getMetaData();
             int numColumns = rsetMD.getColumnCount();
             System.out.println("---"+numColumns + "---");
@@ -194,6 +192,7 @@ public class bookView {
                 for(int i = 1; i<= numColumns; i++){
                     System.out.printf("%-30s", rset.getString(i));
                 }
+                System.out.println();
             }
 
 
