@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd80960-eb3d-4947-80a2-b32a2f4598b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BookStore/StoreView/BookView2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManagerStudent/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManagerStudent/StudentMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManagerStudent/student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fsdf/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fsdf/StudentMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookStore/bookView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStore/bookView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NongPhanManhHung" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -49,11 +52,13 @@
       <recent name="test23_4" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Aptech\Java2\src" />
+      <recent name="D:\Aptech\Java2\src\fsdf" />
       <recent name="D:\Aptech\Java2\src\SQL" />
       <recent name="D:\Aptech\Java2\src\giftshop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookView2">
+  <component name="RunManager" selected="Application.StudentMenu">
     <configuration name="Batch_processing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SQL.Batch_processing" />
       <module name="Java2" />
@@ -80,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcPreparedStatementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SQL.JdbcPreparedStatementTest" />
+    <configuration name="StudentMenu (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ManagerStudent.StudentMenu" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SQL.*" />
+          <option name="PATTERN" value="ManagerStudent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fsdf.StudentMenu" />
+      <module name="Java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fsdf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,33 +124,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BookStore.StoreView.test" />
-      <module name="Java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BookStore.StoreView.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.JdbcPreparedStatementTest" />
       <item itemvalue="Application.Batch_processing" />
       <item itemvalue="Application.BookView2" />
       <item itemvalue="Application.bookView" />
+      <item itemvalue="Application.StudentMenu" />
+      <item itemvalue="Application.StudentMenu (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentMenu" />
+        <item itemvalue="Application.StudentMenu (1)" />
         <item itemvalue="Application.BookView2" />
         <item itemvalue="Application.bookView" />
         <item itemvalue="Application.Batch_processing" />
-        <item itemvalue="Application.JdbcPreparedStatementTest" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +173,8 @@
       <workItem from="1587953167458" duration="776000" />
       <workItem from="1587973979575" duration="5000" />
       <workItem from="1587975351707" duration="4423000" />
+      <workItem from="1588035497933" duration="7097000" />
+      <workItem from="1588211345546" duration="144000" />
     </task>
     <task id="LOCAL-00001" summary="intsert and delete sql">
       <created>1587600638747</created>
@@ -219,26 +226,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="222" key="ExecutionTargetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587520660961" />
-    <state x="1180" y="261" key="FileChooserDialogImpl" timestamp="1587973983124">
+    <state x="1180" y="261" key="FileChooserDialogImpl" timestamp="1588039905698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1180" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587973983124" />
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1587995317648">
+    <state x="1180" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588039905698" />
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1588048490193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587995317648" />
-    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1587995317648">
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588048490193" />
+    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1588048490193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587995317648" />
-    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1587995317647">
+    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588048490193" />
+    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1588048490192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587995317647" />
-    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1587995317648">
+    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588048490192" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1588048490193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587995317648" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588048490193" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1587600868426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -275,10 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="885" y="303" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586855005812" />
-    <state x="342" y="140" key="new project wizard" timestamp="1587975383136">
+    <state x="342" y="140" key="new project wizard" timestamp="1588211495451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587975383136" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588211495451" />
     <state x="964" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1587953190591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -309,6 +316,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BookStore/StoreView/BookStoreView.java</url>
+          <line>11</line>
+          <properties class="BookStore.StoreView.BookStoreView" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/fsdf/StudentMenu.java</url>
+          <line>93</line>
+          <properties class="fsdf.StudentMenu" method="SaveRecord">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
